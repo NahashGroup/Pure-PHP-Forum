@@ -7,3 +7,6 @@ Pure PHP Forum uses no framework, no bootstrap and no MVC structure, which is wh
 You need to install PHP and the necessary dependencies to use it (php-gd, php-sqlite, etc.).
 
 We are not responsible for any consequences of its use, the project is no longer developed because its developer no longer wishes to keep the project alive.
+
+The logins are of the admin account are :
+- admin:u5*^ZxJ5!qNv%D%Za2Fi9
