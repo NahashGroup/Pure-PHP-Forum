@@ -4,9 +4,9 @@ This project is developed in PHP and uses an embedded database system based on S
 
 Pure PHP Forum uses no framework, no bootstrap and no MVC structure, which is why it can be difficult to understand at first glance.
 
-You need to install PHP and the necessary dependencies to use it (php-gd, php-sqlite, etc.).
+You need to install PHP and the necessary dependencies to use it (php-gd, php-sqlite3, etc.).
 
 We are not responsible for any consequences of its use, the project is no longer developed because its developer no longer wishes to keep the project alive.
 
-The logins are of the admin account are :
+The logins of the admin account are :
 - admin:u5*^ZxJ5!qNv%D%Za2Fi9
