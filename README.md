@@ -12,3 +12,4 @@ The logins for the admin account are :
 - Username : admin
 - Password : u5*^ZxJ5!qNv%D%Za2Fi9
 
+Pure-PHP-Forum is fully TOR friendly.
