@@ -6,14 +6,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #000000;
-  color: #00ffff;
-  text-shadow: 0 0 5px rgba(0, 255, 255, 0.4),
-    0 0 10px rgba(0, 255, 255, 0.2),
-    0 0 15px rgba(0, 255, 255, 0.1),
-    0 0 20px rgba(0, 255, 255, 0.05),
-    0 0 30px rgba(0, 255, 255, 0.005),
-    0 0 40px rgba(0, 255, 255, 0.001);
-
+  color: #ffffff;
   margin: 0;
   margin-bottom: 100px;
 }
@@ -57,24 +50,22 @@ span {
   text-shadow: none;
 }
 
-
 button {
   position: relative;
   display: inline-block;
-  height: 40px;
-  margin: 10px;
-  padding: 0 10px;
+  height: 50px;
+  margin: 20px;
+  padding: 10px;
   border: none;
   border-radius: 25px;
-  background-color: #5d00ff;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   text-align: center;
-  font-size: calc(16px + 0.5vw);
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  min-width: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -334,12 +325,15 @@ select {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  word-break: break-all;
-  background-color: #31087B;
+  background-color: #000000;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: 1rem;
   margin: 0 100px 2rem;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .clone_card {
@@ -367,7 +361,7 @@ select {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #31087B;
+  background-color: #000;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: 1rem;
@@ -483,7 +477,8 @@ select {
   align-items: center;
   text-shadow: none;
   overflow: hidden;
-  background-color: #31087B;
+  background-color: #000000;
+  border-bottom: 1px solid #262626;
 
 }
 
@@ -569,12 +564,13 @@ select {
 }
 
 footer {
-  background-color: #31087B;
+  background-color: #000000;
   color: #fff;
   padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #262626;
 
 }
 
@@ -630,7 +626,7 @@ footer {
   padding: 10px;
   position: relative;
   border-radius: 1rem;
-  background-color: #31087B;
+  background-color: #000000;
 
 }
 
@@ -783,8 +779,8 @@ summary {
 [data-pagination] {
   display: inline-block;
   border-radius: 1rem;
-  background-color: #31087B;
-  line-height: 1;
+  background-color: #ffffff;
+  line-height: 1.5;
   font-weight: 400;
   font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -816,14 +812,14 @@ summary {
 }
 
 [data-pagination] a {
-  color: #ffffff;
-  font-size: 125%;
+  color: #000000;
+  font-size: 140%;
   padding: .5em;
 }
 
 [data-pagination] a:focus,
 [data-pagination] a:hover {
-  color: #f60;
+  color: rgb(110, 110, 110);
 }
 
 [data-pagination] li.current {
@@ -947,7 +943,7 @@ summary {
 }
 
 .pm-message.received .content {
-  background-color: #31087B;
+  background-color: #313131;
 }
 
 .pm-message .meta {
